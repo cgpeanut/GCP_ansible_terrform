@@ -8,9 +8,9 @@
 3. Ensure End-to-End
   - Confirm that we have Ansible set up properly and are able to communicate with our inventory servers via SSH.
 
-   ->web1:
-lb->
-   ->web2:
+-   ->web1:
+- lb->
+-   ->web2:
 
 - simple two tier system with multiple wev servers and a single load balancer.
 - use ansible to install packages, manage configurations, patches, etc.
